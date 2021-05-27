@@ -1,0 +1,68 @@
+.thumbnail img{
+	width: 100%;
+
+}
+.thumbnail{
+	padding: 0;
+}
+.thumbnail .caption-full{
+	padding: 10px;
+}
+
+h1{
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3), 
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+/* /admin/show - putting main content in center of <div> */
+#show-content{
+	display: flex;
+  	justify-content: center;
+}
+
+/* /admin/show - adjusting font size of <p> */
+#description{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#information{
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*form page for booking*/
+
+#info{
+	border: 10px;
+}
+
+
+/* footer */
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	background-color: #222;
+	border-top: 0;
+	color: white;
+}
+.panel-footer a{
+	color:white;
+}
+.panel-footer a:hover{
+	color:skyblue;
+}
+.panel-footer div.row{
+	margin-bottom: 30px;
+}
+#hours > span{
+	font-size: 1.2em;
+}
+
+/* end of footer */
+
